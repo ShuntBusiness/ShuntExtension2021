@@ -1,0 +1,20 @@
+.popUpMenu{
+    background-color: #1A0A67;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: auto;
+    height: 600px;
+    width:300px;
+    
+}
+
+.popUpMenu button{
+background-color: #4657F6;
+width: 20%;
+border-radius: 4px;
+}
+.popUpMenu  .fa{
+
+color: #fff;
+}
