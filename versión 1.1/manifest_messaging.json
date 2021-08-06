@@ -1,0 +1,9 @@
+{
+    "name": "com.shunt.spoiler_detection",
+    "description": "Shunt",
+    "path": "C:\\Users\\PCBOX\\Desktop\\shuntpy\\shunt.py",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://eoaegfhkhiibmkgfkhgokggfddoldpim/"
+    ]
+  }

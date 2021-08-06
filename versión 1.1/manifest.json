@@ -1,0 +1,41 @@
+{
+  "name": "Shunt",
+  "description": "Spoilers blocked here!",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "tab",
+    "tabs",
+    "<all_urls>",
+    "webNavigation",
+    "activeTab",
+    "cookies",
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "/images/icons shunt/logo final con circulo negro.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "cssShunt.css"
+      ],
+      "js": [
+        "background.js",
+        "popup.js",
+        "jsShunt.js",
+        "content.js"
+      ]
+    }
+  ]
+}
